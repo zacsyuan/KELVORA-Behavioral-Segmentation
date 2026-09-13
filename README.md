@@ -12,7 +12,7 @@ The notebook exports an HCP-level segmentation master and displays a segment-lev
 ## Files
 
 - `Kelvora_Growth_Question.ipynb` — production analysis notebook.
-- `KELVORA_Case_Data.xlsx` — source workbook.
+- `KELVORA_Case_Data.xlsx` — source workbook located at data folder.
 - `Kelvora_HCP_Seg_Master.xlsx` — HCP-level output created by the notebook.
 
 The source workbook must contain these four tabs:
