@@ -41,6 +41,7 @@ Google Colab normally provides these packages. A local Jupyter environment may r
    - The current notebook uses `/KELVORA_Case_Data.xlsx`, an absolute path.
    - If the workbook is beside the notebook, change the line to `file_name = "KELVORA_Case_Data.xlsx"`.
    - In Colab, upload the workbook and use its actual Colab path.
+   - In Github, the source file is located at data folder.
 3. Restart the kernel or runtime and run all cells from top to bottom.
 4. Review the segment profile and opportunity tables.
 5. Retrieve `Kelvora_HCP_Seg_Master.xlsx` from the working directory.
