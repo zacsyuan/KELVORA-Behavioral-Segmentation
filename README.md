@@ -163,7 +163,7 @@ The PA recovery rate is read from `economics_reference`. It resolves to 0.45 in 
 For financial sizing, early discontinuation is narrower than the clustering feature. Only patients who discontinue before six months for either `Loss of response` or `Tolerability` are treated as addressable. Switches to SCIg, payer/access discontinuations, remission/taper, and ongoing patients are excluded from this value calculation.
 
 ```text
-Retention-recoverable patients = addressable early discontinuations × 0.25
+Retention-recoverable patients = addressable early discontinuations × 0.04
 Retention value = retention-recoverable patients × 12 months × monthly contribution per patient
 ```
 
@@ -174,7 +174,7 @@ Three recovery/value assumptions are used:
 | Assumption | Value | Source |
 |---|---:|---|
 | `assumed_pa_recovery_rate` | 0.45 | Supplied through `economics_reference` |
-| `RETENTION_RECOVERY_RATE` | 0.25 | Analyst-defined notebook constant |
+| `RETENTION_RECOVERY_RATE` | 0.04 | Analyst-defined notebook constant |
 | `INCREMENTAL_MONTHS` | 12 | Analyst-defined notebook constant |
 
 All three can be challenged and rerun. Changes to the PA recovery rate should be made in the source workbook; changes to the other two assumptions should be made in the opportunity-sizing cell.
